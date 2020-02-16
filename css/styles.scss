@@ -1,0 +1,155 @@
+$mainBackground: #333;
+$orange: #ff706c;
+
+body {
+  font-size: 16px;
+}
+
+div#wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 10rem minmax(2.5rem, max-content) auto 20rem 10rem;
+  grid-template-areas:
+    "header"
+    "mobile-nav"
+    "main"
+    "info"
+    "footer";
+
+  header#main_header {
+    align-items: center;
+    background-color: $mainBackground;
+    display: flex;
+    flex-direction: column;
+    font-family: "Raleway", sans-serif;
+    grid-area: header;
+    justify-content: center;
+
+    .main-header__title {
+      display: inline-flex;
+      margin: 0;
+      text-transform: uppercase;
+
+      > a {
+        color: white;
+        text-decoration: none;
+        transition: all 0.4s ease;
+
+        &:hover {
+          color: $orange;
+        }
+      }
+    }
+
+    .main-header__subtitle {
+      color: rgba(255, 255, 255, 0.5);
+      margin: 0;
+    }
+  }
+
+  nav#main_nav_toggle {
+    background-color: #1d232a;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    grid-area: mobile-nav;
+
+    .main-nav-toggle__switch {
+      align-items: center;
+      //   cursor: pointer;
+      background: transparent;
+      display: flex;
+      height: 45px;
+      justify-content: center;
+      padding-left: 15px;
+      width: 45px;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+
+      > div {
+        background-color: rgba(255, 255, 255, 0.5);
+        content: "";
+        height: 4px;
+        position: relative;
+        transition: all 0.2s ease;
+        width: 80%;
+
+        &::before,
+        &::after {
+          content: "";
+          background-color: rgba(255, 255, 255, 0.5);
+          height: 4px;
+          position: absolute;
+          top: -10px;
+          width: 100%;
+        }
+
+        &::after {
+          top: 10px;
+        }
+      }
+    }
+
+    .main-nav-toggle__toggler {
+      display: none;
+    }
+    .main-nav-toggle__toggler:checked ~ .nav {
+      max-height: max-content;
+    }
+
+    .main-nav-toggle__toggler:checked + .main-nav-toggle__switch > div {
+      background-color: white;
+      transform: rotate(135deg);
+    }
+
+    .main-nav-toggle__toggler:checked + .main-nav-toggle__switch > div:before {
+      display: none;
+    }
+    .main-nav-toggle__toggler:checked + .main-nav-toggle__switch > div:after {
+      background-color: white;
+      top: 0;
+      transform: rotate(90deg);
+    }
+
+    ul.nav {
+      font-family: "Lato", sans-serif;
+      margin: 0;
+      max-height: 0px;
+      padding: 0;
+      transition: all 0.4s ease;
+
+      > .main-nav-toggle__item {
+        list-style: none;
+        transition: all 0.2s ease;
+
+        > .main-nav-toggle__link {
+          box-sizing: border-box;
+          color: rgba(255, 255, 255, 0.5);
+          display: inline-flex;
+          font-weight: 300;
+          padding: 10px 15px;
+          text-decoration: none;
+        }
+        &:hover {
+          background-color: $orange;
+        }
+      }
+    }
+  }
+
+  main#main_content {
+    background-color: black;
+    grid-area: main;
+    min-height: 80vh;
+  }
+
+  section#info {
+    background-color: brown;
+    grid-area: info;
+  }
+
+  footer#main_footer {
+    background-color: cornflowerblue;
+    grid-area: footer;
+  }
+}
