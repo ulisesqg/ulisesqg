@@ -1,6 +1,5 @@
 Hi, I'm a Software Engineer 👋
 Senior Software Engineer | Full-Stack Developer | AI-Driven Engineering
-
 I'm a software engineer with 15+ years of experience designing, building, and evolving software solutions across different industries.
 
 I enjoy solving complex problems through pragmatic engineering, clean architecture, and maintainable code. I'm particularly interested in how AI is transforming software development and engineering workflows.
@@ -15,27 +14,21 @@ System Integration: Designing solutions that connect complex systems and third-p
 Fintech & Crypto: Experience developing cryptocurrency trading and payment platforms.
 🛠️ Tech Stack
 Languages
-
 !JavaScript !TypeScript !Python
 
 Backend
-
 !Node.js !NestJS !Django
 
 Frontend & Mobile
-
 !React !React Native
 
 Databases
-
 !PostgreSQL !MongoDB !Redis
 
 Infrastructure & Tools
-
 !Linux !Docker
 
 💼 Professional Experience
-
 Lead Software Developer — Bizopps Group
 2025 – Present
 
@@ -57,18 +50,15 @@ Software Developer — Universidad Durango Santander
 Designed and developed internal business applications for academic administration, student management, and financial operations.
 
 🎯 Engineering Philosophy
-
 I believe great software engineering is about finding the right balance between:
 
 Simplicity and complexity.
 Architecture and pragmatism.
 Development speed and code quality.
 Innovation and maintainability.
-
 I'm particularly interested in AI-driven engineering, developer productivity, software architecture, and building products that solve real-world problems.
 
 🌎 Let's Connect
-
 I'm always interested in connecting with engineers, developers, and companies building innovative software products.
 
 📍 Hermosillo, Mexico
