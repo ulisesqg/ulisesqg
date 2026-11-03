@@ -52,41 +52,6 @@ Currently leading the development of a recruitment platform while integrating AI
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
----
-
-## 💼 Professional Experience
-
-### Lead Software Developer — Bizopps Group
-*2025 – Present | Hermosillo, Mexico*
-
-- Leading the development of a recruitment platform.
-- Implementing AI-assisted development workflows using Spec-Driven Development.
-- Improving software development practices and engineering productivity.
-
-### Full-Stack Software Developer — Disruptive Studio
-*2021 – 2025 | Arizona, USA*
-
-- Developed cryptocurrency-related software solutions.
-- Built automated cryptocurrency trading bot platforms.
-- Developed cryptocurrency payment processing platforms.
-- Worked across backend and frontend development.
-
-### Full-Stack Developer — Bizopps Group
-*2020 – 2021 | Hermosillo, Mexico*
-
-- Led the development of an omnichannel communication platform.
-- Integrated IP telephony, WhatsApp, Instagram, and Facebook Messenger.
-- Built solutions for centralized customer communication management.
-
-### Software Developer — Universidad Durango Santander
-*2013 – 2019 | Hermosillo, Mexico*
-
-- Designed and developed internal business applications.
-- Built academic administration and student management systems.
-- Developed financial and administrative software solutions.
-
----
-
 ## 🎯 Engineering Philosophy
 
 I believe great software engineering is about finding the right balance between:
@@ -95,28 +60,5 @@ I believe great software engineering is about finding the right balance between:
 - Architecture and pragmatism.
 - Development speed and code quality.
 - Innovation and maintainability.
-
-I'm particularly interested in AI-driven engineering, developer productivity, software architecture, and building products that solve real-world problems.
-
----
-
-## 🎓 Education
-
-**Universidad de Sonora**
-
-B.S. in Information Systems Engineering | 2011
-
----
-
-## 🌎 Languages
-
-- Spanish: Native
-- English: Intermediate
-
----
-
-## 🤝 Let's Connect
-
-I'm always interested in connecting with engineers, developers, and companies building innovative software products.
 
 📍 Hermosillo, Mexico
